@@ -1,0 +1,55 @@
+MathHack - A Command-Line Calculator and Mathematical Utility
+
+MathHack is a command-line utility developed in C that offers various mathematical calculations and operations. It supports a range of functionalities including basic arithmetic, factorial calculation, prime number identification, trigonometric calculations, equation solving, and more.
+
+Features:
+- Basic Arithmetic Operations: Addition, Subtraction, Multiplication, Division, Exponentiation, Modulo
+- Factorial Calculation
+- Prime Number Check and Prime Factorization
+- Average Calculation
+- Equation Solver (Quadratic Equations with Real and Imaginary Roots)
+- Trigonometric Functions (sin, cos, tan, cosec, sec, cot)
+- Multiplication Tables
+- Simplifying Fractions
+- GCD (Greatest Common Divisor) Calculation
+- Conversion between Degrees and Radians
+
+Usage:
+MathHack is designed to be used from the command line with specified commands and arguments:
+
+1. Basic Arithmetic: cal <num1> <op> <num2>
+   Supported operations: +, -, *, /, ^ (exponentiation), % (modulo), \ (root)
+
+2. Factorial: fact <number>
+   Calculate factorial of a non-negative integer.
+
+3. Prime Check: prime <number>
+   Check if a number is prime.
+
+4. Prime Factors: pmfact <number>
+   Calculate prime factors of a number.
+
+5. Average: avg <num1> <num2> ...
+   Calculate the average of a list of numbers.
+
+6. Equation Solver: eq <a> <b> <c>
+   Solve quadratic equations (ax^2 + bx + c = 0).
+
+7. GCD Calculation: gcd <num1> <num2>
+   Calculate the Greatest Common Divisor (HCF) of two numbers.
+
+8. Simplify Fraction: smp <numerator> <denominator>
+   Simplify a fraction.
+
+9. Trigonometric Calculations: tcal <unit> <function> <angle>
+   Calculate trigonometric functions (sin, cos, tan, cosec, sec, cot) in radians or degrees.
+
+10. Multiplication Tables: tab <number>
+    Generate multiplication tables from 2 to 19 for a given number.
+
+11. Conversion Tables: ttab <unit> <value>
+    Convert between degrees and radians, and calculate trigonometric functions.
+
+Error Handling:
+The program includes error messages for invalid inputs and edge cases such as division by zero, invalid commands, and unsupported operations.
+
